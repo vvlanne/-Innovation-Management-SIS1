@@ -49,9 +49,7 @@ Evaluate whether Air Astana operates as a product-led organization or remains in
   - Output vs Outcome  
 
 **Artifacts:**  
-- `02_phase1_cagan_audit/notes.md` – Evidence-based quotes with page numbers  
-- `02_phase1_cagan_audit/transformation_memo.md` – 1-page executive memo to the Board  
-
+- `phase1_cagan_audit/notes.md` – Evidence-based quotes with page numbers  
 **Key Insight:**  
 While Air Astana is operationally strong, internal processes such as procurement are managed as **control functions**, not as empowered products.
 
@@ -72,9 +70,9 @@ The core problem is **not lack of tools or templates**, but a **risk-averse cult
 Procurement officers are rewarded for avoiding mistakes, not for speed.
 
 **Artifacts:**  
-- `03_phase2_jtbd/persona_prompt.md` – AI Persona definition  
-- `03_phase2_jtbd/interview_log.md` – 5 Whys interview transcript  
-- `03_phase2_jtbd/prd.md` – Product Requirements Document  
+- `phase2_jtbd/persona_prompt.md` – AI Persona definition  
+- `phase2_jtbd/interview_log.md` – 5 Whys interview transcript  
+- `phase2_jtbd/prd.md` – Product Requirements Document  
 
 ---
 
@@ -91,7 +89,7 @@ Determine whether the proposed AI solution should be built from a **financial an
 AI acts as **decision-support**, not a decision-maker.
 
 **Artifacts:**  
-- `04_phase3_defense/go_no_go_summary.md` – ROI calculation, risk assessment, Go/No-Go decision  
+- `phase3/summary.md` – ROI calculation, risk assessment, Go/No-Go decision  
 
 **Final Decision:**  
 **GO (with conditions)**  
@@ -102,19 +100,18 @@ The project is financially viable and governance-compliant under strict controls
 ## 4. Repository Structure
 
 README.md
-sources.md
 
-02_phase1_cagan_audit/
+
+phase1/
 ├─ notes.md
-└─ transformation_memo.md
 
-03_phase2_jtbd/
+phase2/
 ├─ persona_prompt.md
 ├─ interview_log.md
 └─ prd.md
 
-04_phase3_defense/
-└─ go_no_go_summary.md
+phase3/
+└─ summary.md
 
 ---
 
