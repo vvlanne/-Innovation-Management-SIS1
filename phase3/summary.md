@@ -1,20 +1,26 @@
 # Phase 3 – Managerial Defense (Finance & Governance)
 Company: Air Astana Group  
-Project: AI Decision-Support Agent for Procurement Operations
+Project: AI Risk Assistant for Procurement  
+Scope: Internal Decision-Support Tool
 
 ---
 
 ## 1. Financial Reasoning (ROI)
 
-### Assumptions
-The proposed AI agent is designed as a **decision-support tool**, not an autonomous decision-maker.  
-It assists procurement officers by summarizing contracts, highlighting risks, and validating compliance checklists.
+### Objective
+The proposed AI Risk Assistant is designed to **reduce manual, repetitive contract review work** while preserving full human accountability.  
+The goal is not automation of decisions, but **risk reduction and time savings** for procurement officers.
 
-- Time saved per procurement officer: **8 hours per week**
-- Number of procurement officers using the tool: **15**
-- Average monthly salary (Kazakhstan, professional roles): **800,000 KZT**
+---
+
+### Assumptions
+- Time saved per Senior Procurement Officer: **8 hours per week**
+- Number of Procurement Officers affected: **15**
+- Average monthly salary (professional aviation / procurement roles in Kazakhstan): **800,000 KZT**
 - Average working hours per month: **160 hours**
 - Average hourly cost: **5,000 KZT**
+
+---
 
 ### Annual Time Savings
 - Weekly hours saved:  
@@ -22,38 +28,47 @@ It assists procurement officers by summarizing contracts, highlighting risks, an
 - Annual hours saved:  
   120 × 52 = **6,240 hours/year**
 
+---
+
 ### Annual Cost Savings
-- 6,240 hours × 5,000 KZT = **31,200,000 KZT per year**
+- 6,240 hours × 5,000 KZT/hour = **31,200,000 KZT per year**
+
+---
 
 ### Estimated Annual Costs
-- AI API usage (LLM inference, internal usage): **~6,000,000 KZT**
-- Infrastructure (secure environment, access control, logging): **~4,000,000 KZT**
-- Compliance, security review, and internal audit approval: **~3,000,000 KZT**
 
-**Total estimated annual cost:** **13,000,000 KZT**
+| Cost Item | Estimated Annual Cost |
+|---------|----------------------|
+| AI API usage (internal inference only) | ~6,000,000 KZT |
+| Secure infrastructure & access control | ~4,000,000 KZT |
+| Compliance, security review & audit approval | ~3,000,000 KZT |
+
+**Total Estimated Annual Cost:** **13,000,000 KZT**
+
+---
 
 ### Net Financial Impact
 - Annual savings: **31,200,000 KZT**
 - Annual costs: **13,000,000 KZT**
 
-**Net benefit:** **~18,200,000 KZT per year**
+**Net annual benefit:** **~18,200,000 KZT**
 
-**Estimated payback period:** less than **6 months**
+**Estimated payback period:** **less than 6 months**
 
 ---
 
 ## 2. Governance & Ethics Assessment
 
-The solution operates in a highly regulated aviation environment and must comply with internal controls, regulatory oversight, and audit requirements.
+The AI Risk Assistant operates in a **highly regulated aviation environment** and must comply with strict legal, regulatory, and audit requirements.
 
 | Risk | Why it matters for Air Astana | Mitigation |
-|----|-----------------------------|------------|
-| Aviation contract sensitivity | Supplier contracts involve safety, maintenance, and regulatory obligations | AI used only for decision support, not final approval |
-| Supplier data privacy | Contracts contain sensitive commercial and operational data | Data stored and processed in a secure, access-controlled environment |
-| Regulatory compliance | Aviation industry subject to strict oversight and audits | Human-in-the-loop approval required for all decisions |
-| Hallucinations | Incorrect contract interpretation may lead to legal or safety risks | AI outputs are advisory and must be reviewed by officers |
-| Auditability | Decisions must be explainable during internal or external audits | Full logging, traceable inputs, and explainable outputs |
-| Data residency | Compliance with Kazakhstan data regulations | Local data storage and controlled processing environment |
+|----|------------------------------|------------|
+| Aviation contract sensitivity | Contracts impact safety, maintenance, and regulatory compliance | AI used strictly as decision-support, never as decision-maker |
+| Supplier data confidentiality | Contracts contain sensitive commercial and operational data | Secure access controls and restricted user permissions |
+| Regulatory compliance | Aviation sector subject to continuous audits | Human-in-the-loop approval for all decisions |
+| Hallucinations | Incorrect clause interpretation may create legal or safety risks | AI outputs must be explainable and reviewed by officers |
+| Auditability | Decisions must be traceable during audits | Full audit logs of inputs, outputs, and human decisions |
+| Data residency | Compliance with Kazakhstan data regulations | Data stored and processed within approved local environments |
 
 ---
 
@@ -61,16 +76,23 @@ The solution operates in a highly regulated aviation environment and must comply
 
 ### Decision: **GO (with conditions)**
 
-The project is financially justified and operationally feasible **provided that governance controls are strictly enforced**.
+The project is **financially justified**, **operationally valuable**, and **governance-compliant** if deployed under strict controls.
+
+---
 
 ### Conditions for Approval
-- AI functions strictly as a **decision-support tool**
-- Mandatory **human approval** for all procurement decisions
-- Full **audit logs** and explainability of AI outputs
-- No autonomous contract approvals
-- Data processed and stored in compliance with Kazakhstan regulations
+- AI acts solely as a **risk-identification and decision-support tool**
+- **No autonomous contract approvals**
+- Mandatory **human approval** for every procurement decision
+- Full **audit trail and explainability** of AI outputs
+- Compliance with Kazakhstan data residency and aviation regulations
 
 ---
 
 ## Final Assessment
-The proposed AI agent reduces operational friction and manual effort in procurement while preserving accountability, regulatory compliance, and decision transparency. The financial upside is clear, and the governance risks are manageable under a controlled deployment model.
+The AI Risk Assistant directly addresses the root cause identified in Phase 2:  
+**fear of errors driven by personal accountability and regulatory pressure**.
+
+By reducing cognitive load and improving risk visibility—without removing human control—the solution improves efficiency while preserving compliance, trust, and accountability.
+
+This makes the initiative suitable for controlled deployment within Air Astana’s procurement operations.
