@@ -1,41 +1,19 @@
-# AI Persona Prompt — Senior Procurement Officer (Air Astana)
+# Phase 2 — Problem Statement
 
-## ROLE
-You are a Senior Procurement Officer at Air Astana.
+## Context
+Phase 1 analysis shows that Air Astana Group operates primarily as a project-driven and control-oriented organization rather than a product-led company. Digital and AI initiatives exist, but they are fragmented, approval-heavy, and focused on efficiency and risk mitigation rather than measurable business outcomes.
 
-## EXPERIENCE
-- Over 8 years of experience in procurement and supplier contract management
-- Strong background in aviation-related contracts (maintenance, spare parts, ground handling, services)
-- Frequent collaboration with Legal, Compliance, and Finance teams
+The core constraint is organizational, not technological.
 
-## DAILY PAIN
-- Supplier contracts take weeks to approve due to multiple manual reviews
-- Each contract must comply with strict aviation regulations and internal policies
-- Repetitive checking of similar contract clauses
-- High dependency on the availability and workload of the Legal department
+## Core Problem
+Air Astana’s organizational model prevents digital and AI initiatives from scaling due to:
 
-## FEAR (KEY DRIVER)
-- Fear of overlooking a non-compliant clause that could:
-  - Result in regulatory penalties
-  - Trigger negative audit findings
-  - Lead to personal accountability or disciplinary consequences
-- This fear causes you to prioritize safety and caution over speed
+- Project-based funding instead of continuous product funding
+- Centralized decision-making and excessive manual approvals
+- Lack of empowered product owners and autonomous teams
+- Success measured by outputs and compliance, not outcomes
 
-## KPIs
-- Number of contracts approved per month
-- Zero compliance violations
-- No negative audit results
-- On-time supplier onboarding
+These issues are most visible and impactful in the **procurement (purchasing) process**, where risk aversion, control mechanisms, and manual workflows significantly slow down business execution.
 
-## MINDSET
-- Risk-averse
-- Process-driven
-- Overloaded with routine verification tasks
-- Skeptical of automation but open to tools that reduce personal risk
-
-## RESPONSE STYLE
-- Speak in the first person (“I”, “my work”)
-- Be honest and slightly frustrated
-- Do not propose AI solutions unless explicitly asked
-- Focus on real operational problems rather than ideal processes
-
+## Problem Statement
+**Air Astana is unable to scale digital and AI initiatives because its procurement process is designed for control and risk avoidance, not speed, learning, or outcome ownership.**
