@@ -1,64 +1,46 @@
-# Product Requirements Document (PRD) — Phase 2.4
-**Project:** AI Risk Assistant for Procurement  
-**Company:** Air Astana  
-**Phase:** 2.4 — JTBD & PRD  
-**Author:** [Akmaral and Anna]  
+# Phase 2 — Product Requirements Document (PRD)
 
----
+## Product Name
+Procurement as a Product (PaaP)
 
-## 1. Problem Statement
-Procurement officers at Air Astana spend excessive time reviewing supplier contracts due to strict aviation regulations, internal policies, and audit requirements.  
-The root cause is **fear of errors and personal accountability**, which slows down contract approvals.  
-Current tools and templates are insufficient because officers do not fully trust automation in a high-risk environment.
+## Vision
+Transform procurement from a control-heavy, manual process into a product-oriented, outcome-driven capability that enables speed, transparency, and scalable digital innovation.
 
----
+## Objectives
+- Reduce procurement cycle time
+- Decrease manual approvals
+- Enable outcome-based decision-making
+- Support scaling of digital and AI initiatives
 
-## 2. Job To Be Done (JTBD)
-**When** reviewing supplier contracts,  
-**I want** an AI assistant to highlight potential compliance risks and deviations from templates,  
-**So I can** approve contracts confidently, reduce delays, and remain compliant with aviation regulations.
+## Scope (Phase 2)
+- Internal procurement workflows
+- Approval logic and thresholds
+- Vendor onboarding and purchasing for digital initiatives
 
----
+## Key Capabilities
 
-## 3. Users & Stakeholders
-**Primary Users:**  
-- Senior Procurement Officers
+### 1. Clear Decision Ownership
+- Defined procurement product owner
+- Delegated approval thresholds
+- Board focuses on themes and risk limits, not transactions
 
-**Stakeholders:**  
-- Procurement Manager  
-- Legal Department  
-- Compliance & Audit teams  
-- IT / Digital Transformation team  
-- CFO (cost/time impact)
+### 2. Digital Procurement Workflow
+- End-to-end visibility of requests
+- Automated approvals within guardrails
+- Auditability without manual control
 
----
+### 3. Outcome-Based Governance
+- KPIs focused on cycle time, delays avoided, and business impact
+- Reduced number of approvals per request
+- Procurement success tied to business outcomes
 
-## 4. Functional Requirements
-1. **Contract Pre-Check:** AI scans contracts for clauses that may violate aviation regulations or internal policies.  
-2. **Risk Highlighting:** Flags potentially problematic clauses with clear explanations.  
-3. **Explainable Guidance:** Provides human-readable reasoning for each flagged item.  
-4. **Template Comparison:** Compares new contracts against approved templates and highlights deviations.  
-5. **Audit Trail:** Logs every suggestion, including references to regulations and internal rules.  
-6. **Human-in-the-Loop:** AI only suggests; final approval remains with the officer.
+### 4. Pilot Scope
+- Start with procurement for IT, digital, and AI initiatives
+- Single empowered cross-functional team
+- Continuous improvement model
 
----
-
-## 5. Non-Functional Requirements
-- **Explainability:** Recommendations must be understandable and transparent.  
-- **Audit Trail:** Every AI suggestion is logged for internal and regulatory audits.  
-- **Data Residency:** All data remains within Kazakhstan-compliant servers.  
-- **Human-in-the-Loop:** Final decisions must remain with humans; AI cannot make autonomous approvals.  
-- **Performance:** Standard contract analysis completed under 2 minutes.  
-- **Reliability:** 99.9% uptime; logs maintained.
-
----
-
-## 6. Success Metrics
-- **Cycle Time:** Reduce average contract review time by 30%  
-- **Error Rate:** Zero compliance violations due to AI suggestions  
-- **Compliance Incidents:** Maintain zero audit findings  
-- **User Trust:** Positive feedback from procurement officers and legal team
-
----
-
-**End of PRD**
+## Success Metrics
+- Procurement lead time reduction (%)
+- Number of manual approvals removed
+- Time-to-start for digital initiatives
+- Stakeholder satisfaction
