@@ -1,9 +1,6 @@
-# AI Transformation – Strategic Portfolio  
-**Course:** Innovation Management  
-**Assignment:** The “AI Transformation” (SIS, Week 4)  
+# AI Transformation – Strategic Portfolio   
 **Company:** Air Astana Group  
-**Focus Area:** Internal Procurement Operations  
-**Author(s):** Akmaral, Anna  
+ 
 
 ---
 
