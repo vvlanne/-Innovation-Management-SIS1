@@ -1,55 +1,27 @@
-# 5 Whys Interview Log  
-## Procurement Process — Air Astana
+# Phase 2 — 5 Whys Analysis
 
-**Interviewer:** Product Manager  
-**Interviewee:** Senior Procurement Officer (AI Persona)  
-**Objective:** Identify the root cause behind slow procurement contract approvals
+## Problem
+Digital and AI initiatives in Air Astana do not scale.
 
----
+### Why 1
+Why don’t digital and AI initiatives scale?
+→ Because they are slowed or blocked by procurement and approval processes.
 
-### Question 1:  
-**Why does the procurement contract approval process take so long?**
+### Why 2
+Why does procurement slow them down?
+→ Because procurement relies on manual controls, multiple approvals, and rigid procedures.
 
-**Answer:**  
-Because every supplier contract has to be reviewed manually multiple times. I cannot approve anything quickly since aviation contracts are highly regulated and even a small mistake can cause serious problems.
+### Why 3
+Why is procurement designed this way?
+→ Because the organization prioritizes risk avoidance and control over speed and outcomes.
 
----
+### Why 4
+Why is control prioritized over outcomes?
+→ Because success is measured by compliance and outputs, not business impact.
 
-### Question 2:  
-**Why does every contract require full manual review instead of using standard templates or automated checks?**
+### Why 5
+Why are outcomes not owned?
+→ Because there are no empowered product owners or teams accountable for end-to-end results.
 
-**Answer:**  
-Even when we use templates, each supplier has slight variations. Regulations change, and internal policies are strict. I don’t fully trust that templates or systems will catch all compliance issues, so I re-check everything myself.
-
----
-
-### Question 3:  
-**Why don’t you trust existing tools or partial automation to support these checks?**
-
-**Answer:**  
-Because if something goes wrong, the responsibility is still on me. The system is not accountable — I am. If an auditor finds a problem, it’s my name attached to the contract, not the tool’s.
-
----
-
-### Question 4:  
-**Why is personal accountability such a strong concern in your daily work?**
-
-**Answer:**  
-In aviation, compliance failures can lead to regulatory penalties, reputational damage, or operational disruptions. A single mistake can impact my career. There is no tolerance for errors, so I prefer to be slow but safe.
-
----
-
-### Question 5:  
-**Why is avoiding mistakes more important than speed or operational efficiency?**
-
-**Answer:**  
-Because the organization measures success by the absence of problems, not by how fast we work. I am rewarded for zero violations and clean audits, not for faster contract approvals. The system encourages caution over efficiency.
-
----
-
-## Key Insight (Root Cause)
-
-The core issue is not process inefficiency or lack of technology.  
-The root cause is a risk-averse culture driven by personal accountability, regulatory pressure, and KPI systems that prioritize error avoidance over speed.
-
-As long as procurement officers are individually responsible for compliance outcomes, they will continue to rely on manual reviews, regardless of available digital tools.
+## Root Cause
+Air Astana’s procurement process reflects a project-based, control-oriented operating model that prevents ownership, learning, and outcome-driven execution.
